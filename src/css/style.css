@@ -10,9 +10,15 @@ body {
 }
 
 #cabecalho {
-    text-align: center;
+    text-align: left;
     padding: 50px 0;
     background-color: rgb(54, 1, 54);
+}
+
+#cabecalho img {
+    width: 84px;
+    height: 84px;
+    border-radius: 50px;
 }
 
 #cabecalho h1 {
@@ -20,6 +26,27 @@ body {
     font-size: 45px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    display: inline-block;
+    /* text-align: left; */
+}
+
+#cabecalho ul {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+#cabecalho ul li {
+    padding: 30px;
+    background: #e49d41;
+    color: #ffffff;
+    border-radius: 5px;
+    /* line-height: 10px; */
+    display: inline-block;
+}
+
+#cabecalho ul li a {
+    text-decoration: none;
 }
 
 #conteudo {
